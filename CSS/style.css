@@ -1,0 +1,70 @@
+*{
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	align-items: center;
+	align-content: center;
+	vertical-align: middle;
+}
+h1{
+	color: black;
+}
+.fondo{
+	border: 5px solid darkblue;
+	background: rgb(78,200,22);
+	width: auto;
+	height: 80vh;
+}
+.ltop{
+	color: black;
+	position: absolute;
+	content: '';
+	left: 3%;
+	top: 5%;
+	background: orange;
+	width: 50%;
+	height: 5vh;
+}
+.rtop{
+	color: black;
+	position: absolute;
+	content: '';
+	left: 55%;
+	top: 5%;
+	background: magenta;
+	width: 41%;
+	height: 5vh;
+}
+.nav{
+	margin-top: 5px;
+	vertical-align: middle;
+	color: #000;
+	position: absolute;
+	content: '';
+	background: skyblue;
+	left: 3%;
+	top: 11vh;
+	width: 93%;
+	height: 10vh;
+}
+.lbody{
+	color: white;
+	position: absolute;
+	margin-top: 5px;
+	background: blue;
+	content: '';
+	left: 3%;
+	top: 22VH;
+	width: 46%;
+	height: 51vh;
+}
+.rbody{
+	color: black;
+	position: absolute;
+	margin-top: 5px;
+	background: yellow;
+	content: '';
+	left: 50%;
+	top: 22VH;
+	width: 46%;
+	height: 51vh;
+}
