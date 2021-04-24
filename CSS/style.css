@@ -9,10 +9,10 @@ h1{
 	color: black;
 }
 .fondo{
-	border: 5px solid darkblue;
-	background: rgb(78,200,22);
+	border: 5px solid rgba(59, 59, 236, 0.842);
+	background: rgba(116, 238, 59, 0.692);
 	width: auto;
-	height: 80vh;
+	height: 85vh;
 }
 .ltop{
 	color: black;
@@ -20,7 +20,7 @@ h1{
 	content: '';
 	left: 3%;
 	top: 5%;
-	background: orange;
+	background: rgb(255, 0, 0);
 	width: 50%;
 	height: 5vh;
 }
@@ -30,7 +30,7 @@ h1{
 	content: '';
 	left: 55%;
 	top: 5%;
-	background: magenta;
+	background: rgba(14, 9, 41, 0.767);
 	width: 41%;
 	height: 5vh;
 }
@@ -67,4 +67,45 @@ h1{
 	top: 22VH;
 	width: 46%;
 	height: 51vh;
+	max-width: 1000px;
+}
+.footer{
+	color: #000;
+	position: absolute;
+	margin-top: 5px;
+	background: rgb(177, 23, 23);
+	content: '';
+	left: 3%;
+	top: 74vh;
+	width: 93%;
+	height: 10vh;
+}
+.widget {
+	width: 40%;
+	margin: 2vh;
+}
+.widget p {
+	display: inline-block;
+	line-height: 1em;
+}
+.dia {
+	font-size:1.7vh;
+	margin-bottom: 0.3125rem;
+	background: rgba(0,0,0,.5);
+	padding: 10px;
+	width: 120%;
+}
+.hora {
+	width: 120%;
+	padding: 10px;
+	font-size: 5vh;
+	background: rgba(0,0,0,.5);
+}
+.hora .SB {
+	display: inline-block;
+}
+.hora .S,
+.hora .DN {
+	font-size: 3vh;
+	display: block;
 }
